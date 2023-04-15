@@ -20,8 +20,7 @@ namespace SimpleSSLChecker
             }
             catch (HttpRequestException e)
             {
-                Console.WriteLine($"Exception {uri} -  {e.Message}");
-                
+                //Console.WriteLine($"Exception {uri} -  {e.Message}");
                 return null;
             }
             finally
